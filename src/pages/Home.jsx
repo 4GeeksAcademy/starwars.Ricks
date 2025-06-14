@@ -10,6 +10,7 @@ export const Home = () => {
     planets: [],
     starships: []
   })
+console.log(localData);
 
   const divideFourCarousel =(array,size) =>{
     const result= [];
