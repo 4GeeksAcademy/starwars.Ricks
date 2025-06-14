@@ -142,3 +142,35 @@ body{
     font-size: 1.2rem;
   }
 }
+.titulo-con-fondo {
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro semitransparente */
+  display: inline-block;
+  backdrop-filter: blur(4px); /* Efecto de desenfoque elegante */
+}
+.card-verde-claro {
+  background-color: #d4edda; /* Verde claro pastel */
+  border: 2px solid #a8d5a0; /* Borde verde un poco más fuerte */
+  color: #155724; /* Texto en verde oscuro para contraste */
+}
+.bg-granate {
+  background-color: #800000; /* Granate oscuro */
+}
+
+.navbar a,
+.navbar-brand {
+  color: #fff !important;
+}
+.dropdown-menu-negro {
+  background-color: #000 !important;      /* Fondo negro */
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.dropdown-menu-negro .dropdown-item {
+  color: #fff !important;                 /* Texto blanco */
+  transition: background-color 0.2s ease;
+}
+
+.dropdown-menu-negro .dropdown-item:hover {
+  background-color: #222 !important;      /* Hover oscuro */
+}

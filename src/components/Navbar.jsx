@@ -17,10 +17,10 @@ export const Navbar = () => {
 	}
 
 	return (
-		<nav className="navbar navbar-light bg-light">
+		<nav className="navbar navbar-expand-lg navbar-light bg-granate-claro rounded-4 shadow-sm nav-hover px-4 py-2">
 			<div className="container">
 				<Link to="/">
-					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHKcO1FmNwlCNBID69r_GiNk42bckfYOXYUg&s" alt="Bootstrap" width="100" height="100" />
+					<img src="https://i.ebayimg.com/images/g/mbwAAOSwzwxlN-wH/s-l1200.jpg" alt="Bootstrap" width="100" height="100" />
 				</Link>
 				<SearchBar />
 				<div className="ml-auto">
@@ -29,7 +29,7 @@ export const Navbar = () => {
 							Favoritos <span className=" badge bg-info text-dark ms-2">{counter}</span>
 						</button>
 
-						<ul className="dropdown-menu">
+						<ul className="dropdown-menu dropdown-menu-negro">
 
 							{
 								store.favorites.map((fav, index) => (
@@ -41,7 +41,7 @@ export const Navbar = () => {
 											{fav.name}
 										</Link>
 										<button
-											className="btn boton p-1 mx-1 "
+											className="btn botonbtn btn-dark text-white "
 											type="button"
 											onClick={() => removeFav(fav.name)}
 										>

@@ -126,15 +126,15 @@ console.log(localData);
     
      <div className="container mt-4">
    
-      <h2 className="text-center mb-4">Personajes de Star Wars</h2>
+      <h2 className="text-center mb-4 px-4 py-2 rounded-4 fw-bold text-white shadow titulo-con-fondo">Personajes de Star Wars</h2>
       <Carousel id="charactersCarousel" stack={characterStack} CardComponent={CardPeople} type="character" handleAddFav={handleAddFav} favorites={store.favorites} />
 
     
-      <h2 className="text-center mb-4">Planetas de Star Wars</h2>
+      <h2 className="text-center mb-4 px-4 py-2 rounded-4 fw-bold text-white shadow titulo-con-fondo">Planetas de Star Wars</h2>
       <Carousel id="planetsCarousel" stack={planetStack} CardComponent={CardPlanets} type="planet" handleAddFav={handleAddFav} favorites={store.favorites} />
 
    
-      <h2 className="text-center mb-4">Naves de Star Wars</h2>
+      <h2 className="text-center mb-4 px-4 py-2 rounded-4 fw-bold text-white shadow titulo-con-fondo">Naves de Star Wars</h2>
       <Carousel id="starshipsCarousel" stack={starshipStack} CardComponent={CardStarships} type="starship" handleAddFav={handleAddFav} favorites={store.favorites} />
     </div>
   );
