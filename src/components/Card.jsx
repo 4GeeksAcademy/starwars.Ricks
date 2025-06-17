@@ -12,7 +12,7 @@ export const CardPeople =({uid,nameTitle,img,addFavorites, isFavorite})=>{
                     Learn more!
                 </Link>
           
-                <button
+                <button disabled={isFavorite} //No se desabilita por que el corazon ha sido pulsado, si no por que al pulsarse, el MdFavoriteBorder esta activo.(tras ejecutar onClick addfavs)
                         className="btn boton p-1 mx-1 "
                         type="button"
                         onClick={addFavorites}>
